@@ -1,0 +1,30 @@
+
+id de produit :38
+le titre de produit :iphone 13 pro max
+la description du produit :un samsung s10 a gagne FPDF est constituÃƒÂ© des ÃƒÂ©lÃƒÂ©ments suivants :
+
+- le fichier principal fpdf.php contenant la classe
+- les fichiers de dÃƒÂ©finition des polices contenus dans le rÃƒÂ©pertoire font
+
+Les fichiers de police sont indispensables dÃƒÂ¨s que l'on veut ÃƒÂ©crire du texte dans un document.
+S'ils ne sont pas accessibles, la mÃƒÂ©thode SetFont() produira l'erreur suivante :
+
+FPDF error: Could not include font definition file
+
+
+Remarques :
+
+- Seuls les fichiers correspondant aux polices effectivement utilisÃƒÂ©es sont nÃƒÂ©cessaires
+- Les tutoriels fournis dans l'archive sont prÃƒÂªts ÃƒÂ  ÃƒÂªtre exÃƒÂ©cutÃƒÂ©s Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, copy, modify, distribute, sublicense, and/or sell
+copies of the software, and to permit persons to whom the software is furnished
+to do so.
+le prix orginal de produit :3599
+le prix de participation :20
+le nombre necessaire pou ouvrir :2
+_________________________________________________________________________
+une nouvelle inscription dans le produit  :iphone 13 pro max
+id_user:56|---|montant payee:20|---| date de loperation :2021-10-25 22:52:46
+_________________________________________________________________________
+une nouvelle inscription dans le produit  :iphone 13 pro max
+id_user:57|---|montant payee:20|---| date de loperation :2021-10-26 15:28:34

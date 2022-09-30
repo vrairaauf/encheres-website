@@ -1,0 +1,701 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.produit{
+	border-style: solid;
+	border-width: 0.5px;
+	width: 90%;
+	height: all;
+	border-width: 0.5px;
+	border-style: solid;
+}
+.produitnv{
+	border-style: solid;
+	border-width: 3px;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	height: all;
+	border-color: rgb(0,149,149);
+}
+.produitnv h3{
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+.produitnv .pre{
+	padding-left: 3px;
+	text-align: left;
+	letter-spacing: 0.5px;
+	word-spacing: 1px;
+}
+.produitnv .rejoindre{
+	text-align: center;
+	
+	background-color: green;
+	width: 20%;
+	position: relative;
+	left: 40%;
+	height: 22px;
+	font-weight: bold;
+}
+@media(max-width: 700px){
+	.produitnv .rejoindre{
+		width: 80%;
+		position: relative;
+		left: 10%;
+	}
+}
+.produitnv .rejoindre a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.imagepub{
+	align-self: center;
+	width: 130px;
+	height: 130px;
+}
+.hiddenmenu{
+	width: 80%;
+	height: all;
+	position: relative;
+	left: 10%;
+	background-color: rgb(100,100,100);
+	font-size: medium;
+	font-weight: bold;
+	text-align: center;
+	display: none;
+	text-decoration: none;
+}
+.hiddenmenu p a{
+	text-decoration: none;
+	font-size: x-large;
+	color: black;
+}
+.showmenu{
+	width: 100%;
+	height: all;
+	
+	background-color: rgb(0,128,128);
+	font-size: medium;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+.showmenu ul {
+	list-style-type: none;
+}
+.showmenu p a{
+	text-decoration: none;
+	font-size: x-large;
+	color: white;
+}
+
+.tetesite{
+	width: 80%;
+	height: all;
+	position: relative;
+	left: 10%;
+}
+.connexionform{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin-top: 15px;
+	height: all;
+	border-style: solid;
+	border-width: 0.1px;
+	padding-bottom: 50px;
+	background-color: rgb(0,61,121);
+}
+
+.connexionform form h1{
+	text-align: center;
+	color: white;
+
+}
+.connexionform .motdepasseoublier{
+	text-align: center;
+}
+.connexionform .motdepasseoublier a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.connexionform form input{
+	align-content: center;
+	
+	width: 300px;
+	height: 30px;
+	margin-left: 30%;
+
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+}
+@media(max-width: 700px){
+	.connexionform{
+		width: 100%;
+		position: relative;
+		left: 0%;
+		padding-bottom: 20px;
+	}
+	.connexionform form input{
+		width: 90%;
+		height: 25px;
+		margin-left: 0;
+		position: relative;
+		left: 5%;
+	}
+}
+.connexionform form input[name="submit"]{
+	background-color: rgb(83,169,255);
+	color: white;
+}
+.connexionform form .erreur{
+	color: red;
+	text-align: center;
+}
+.oublierform{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin-top: 15px;
+	height: all;
+	border-style: solid;
+	border-width: 0.1px;
+	padding-bottom: 50px;
+	background-color: rgb(0,61,121);
+}
+.oublierform form input{
+	align-content: center;
+	
+	width: 300px;
+	height: 30px;
+	margin-left: 30%;
+
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+}
+.oublierform form h3{
+	text-align: center;
+	color: white;
+}
+.oublierform form input[name="submit"]{
+	background-color: rgb(83,169,255);
+	color: white;
+}
+.oublierform form .erreur{
+	color: red;
+	text-align: center;
+}
+.menu{
+	width: 20%;
+	height: 10px;
+
+}
+.menu tr td{
+	width: 100px;
+}
+.menu tr td a{
+	color: red;
+	font-size: xx-large;
+}
+.facture{
+	width: 80%;
+	height: all;
+	position: relative;
+	left: 10%;
+	
+}
+.facture table{
+	border-style: solid;
+	border-width: 0.3px;
+	width: 100%;
+}
+.facture table thead{
+	background-color: grey;
+}
+.facture .bodtable td{
+	border-left-style: solid;
+	border-left-width: 0.3px;
+}
+.userspace{
+	width: 80%;
+	height: all;
+	position: relative;
+	left: 10%;
+	border-left-width: 0.3px;
+	border-left-style: solid;
+}
+.userspace img{
+	width: 150px;
+	height: 140px;
+	border-radius: 50%;
+}
+
+.content {
+	width: inherit;
+}
+.containerpagination{
+	width: 70%;
+	height: all;
+	position: relative;
+	left: 15%;
+	text-align: center;
+
+
+}
+.containerpagination .pagination{
+	
+	height: all;
+	border-style: solid;
+	border-width: 0.2px;
+	font-weight: bold;
+	font-size: medium;
+}
+.containerpagination .pagination a{
+	text-decoration: none;
+	color: black;
+	width: 30px;
+}
+.enligne{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: green;
+}
+.notification{
+	border-style: solid;border-width: 0.5px;
+	border-color: black; width: 80%;position: relative;left: 10%;height: auto;
+	background-color: rgb(96,112,185);
+}
+.voirprofil{
+	width: 80%;
+	height: all;
+	border-width: 0.4px;
+	border-style: solid;
+	position: relative;
+	left: 10%;
+	font-size: x-large;
+	font-weight: bold;
+}
+.voirprofil button{
+	text-decoration: none;
+	background-color: green;
+	width: 50%;
+}
+.inscriptionform{
+	width: 80%;
+	position: relative;
+	left: 10%;
+	margin-top: 15px;
+	height: all;
+	border-style: solid;
+	border-width: 0.1px;
+	padding-bottom: 50px;
+	background-color: rgb(0,61,121);
+}
+.inscriptionform form input{
+	align-content: center;
+	width: 300px;
+	height: 30px;
+	margin-left: 30%;
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+}
+.inscriptionform form input[name="submit"]{
+	background-color: rgb(83,169,255);
+	color: white;
+}
+.inscriptionform form .erreur{
+	color: red;
+	text-align: center;
+}
+.inscriptionform form h1{
+	text-align: center;
+	color: white;
+
+}
+@media(max-width: 700px){
+	.inscriptionform{
+		width: 	100%;
+		position: relative;
+	left: 0%;
+		margin-top: 10px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.inscriptionform form input{
+		width: 90%;
+		height: 30px;
+		margin-left: 0%;
+	}
+}
+.entete{
+	width: 80%;
+	height: 220px;
+	position: relative;
+	left: 10%;
+}
+.entete img{
+	width: 100%;
+	height: 220px;
+}
+@media(max-width: 700px){
+	.entete{
+		width: 90%;
+		position: relative;
+		left: 5%;
+		height: 160px;
+	}
+	.entete img{
+	width: 100%;
+	height: 160px;
+}
+}
+.all{
+	width: 100%;
+	background-color: rgb(182,182,182);
+	height: all;
+}
+.reverif{
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+}
+.reverif a{
+	text-decoration: none;
+	color: white;
+}
+.commentairediv{
+	width: 90%;
+	height: all;position: relative;
+	left: 5%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(0,149,149);
+
+
+}
+.commentairediv h3{
+	text-align: left;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	word-spacing: 1px;
+
+}
+.commentairediv p{
+	font-weight: bold;
+	text-align: left;
+}
+.connecterpourajoutercommentaie{
+	text-align: center;
+	border-style: none;
+	background-color: green;
+	width: 20%;
+	position: relative;
+	left: 40%;
+	
+
+}
+.connecterpourajoutercommentaie a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.templatemain{
+	width: 100%;
+	height: all;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.templatemain table{
+	position:relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: all;
+	border-spacing: 0px;
+}
+.templatemain table tr #fenetre{
+	
+	width: 22%;
+	height: all;
+}
+@media(max-width: 700px){
+	.templatemain table tr #fenetre{
+		display: none;
+	}
+}
+.templatemain table tr #pub{
+	width: 15%;
+	height: all;
+}
+@media(max-width: 700px){
+	.templatemain table tr #pub{
+		display: none;
+	}
+}
+.templatemain table tr #contenu{
+	
+	height: all;
+}
+@media(max-width: 700px){
+	.templatemain table tr #contenu{
+
+	}
+}
+.menuu ul{
+	
+	height: all;
+	width: all;
+	margin: 12px;
+	padding: 12px;
+	border-style: solid;
+	
+	border-width: 3px;
+	border-color: rgb(0,149,149);
+	list-style-type: none;
+	
+}
+@media(max-width: 700px){
+	.menuu ul{
+		display: none;
+	}
+}
+.deuxiememenu ul{
+	
+	height: all;
+	width: all;
+	margin: 12px;
+	padding: 12px;
+	border-style: solid;
+	
+	border-width: 3px;
+	border-color: rgb(0,149,149);
+	list-style-type: none;
+}
+
+.menuu ul li{
+	text-align: center;
+	border-bottom: solid;
+	border-width: 0.1px;
+}
+.menuu ul li a,  .deuxiememenu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.menudenavigation{
+	display: none;
+}
+@media (max-width: 700px){
+	.menudenavigation{
+		display: block;
+		position: fixed;
+		top: 10px;
+		z-index: 1;
+
+	}
+}
+.foot{
+		width: 90%;
+		position: relative;
+		left: 5%;
+
+		height: all;
+		border-style: solid;
+		border-width: 0.2px;
+		padding: 5px;
+
+
+	}
+	
+	.foot table tr #fenetr{
+		width: 25%;
+		height: all;
+		padding: 2px;
+
+	}
+	@media(max-width: 700px){
+		.foot table tr #fenetr{
+		display: none;
+
+	}
+	}
+	.foot table tr #fenetr #about{
+		text-align: center;
+	}
+	.foot table tr #center #about{
+		width: 100%;
+		height: all;
+		text-align: center;
+		display: none;
+	}
+	@media(max-width: 700px){
+		.foot table tr #center #about{
+		
+		display: block;
+	}
+	}
+	.foot table tr #fenetr .menu ul{
+		list-style-type: none;
+		font-weight: bold;
+
+	}
+	.foot table tr #center .menucenter{
+		width: 100%;
+		height: all;
+		display: none;
+	}
+	.foot table tr #center .menucenter ul{
+		list-style-type: none;
+		font-weight: bold;
+		
+	}
+	.maps{
+		width: 100%;
+		text-align:center;
+	}
+	@media(max-width: 700px){
+		.maps{
+		width: 100%;
+		text-align:left;
+	}
+	}
+	@media(max-width: 700px){
+		.foot table tr #center .menucenter{
+			display: block;
+		}
+	}
+	.foot table tr #center.menucenter ul{
+		list-style-type: none;
+	}
+	.foot table tr #fenetr .menu{
+		width: 100%;
+		height: all;
+	}
+	.foot table{
+		width: 100%;
+		height: all;
+	}
+	.foot .droit{
+		text-align: center;
+		font-weight: bold;
+		font-size: medium;
+	}
+	
+	.deuxiememenucenter{
+		height: all;
+	width: 90%;
+	position: relative;
+	left: 5%;
+	border-style: solid;
+	
+	border-width: 3px;
+	border-color: rgb(0,149,149);
+	list-style-type: none;
+	text-align: center;
+	display: none;
+	}
+	.deuxiememenucenter ul{
+		list-style-type: none;
+	}
+	.deuxiememenucenter ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+@media(max-width: 700px){
+	.deuxiememenucenter{
+		display: block;
+			}
+}
+.publicite{
+		height: all;
+}
+.publicite p a img{
+		width: 100%;
+		height: 500px;
+}
+.publicitecenter{
+		width: 80%;
+		position: relative;
+		left: 10%;
+		display: none;
+}
+.publicitecenter p a img{
+		width: 100%;
+		height: 100px;
+}
+@media(max-width: 700px){
+	.publicitecenter{
+		width: 90%;
+		position: relative;
+		left: 5%;
+		height: all;
+		display: block;
+}
+.publicitecenter p a img{
+		width: 100%;
+		height: 100px;
+
+}
+}
+#response{
+	width: 80px;
+	height: 40px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgb(0,108,217);
+	
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+	position: relative;
+	left: 42%;
+}
+.prix{
+	font-weight: bold;
+	font-size: medium;
+	color: blue;
+}
+.principal{
+	width: 60%;
+	position: relative;
+	left: 20%;
+	border-style: solid;
+	height: all;
+	text-align: center;
+	font-weight: bold;
+}
+.menuparametre{
+	border-style: solid;
+	border-width: 0.2px;
+	width: 80%;
+
+}
+.menuparametre ul{
+	list-style-type: none;
+
+}
+.menuparametre ul li{
+	font-size: large;
+	font-weight: bold;
+	color :black;
+
+}
+.menuparametre ul li a{
+	text-decoration: none;
+	color: blue;
+}
+
+

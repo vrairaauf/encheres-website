@@ -1,0 +1,25 @@
+
+id de produit :35
+le titre de produit :samsung galaxy s10
+la description du produit :un samsung s10 a gagne FPDF est constitué des éléments suivants :
+
+- le fichier principal fpdf.php contenant la classe
+- les fichiers de définition des polices contenus dans le répertoire font
+
+Les fichiers de police sont indispensables dès que l'on veut écrire du texte dans un document.
+S'ils ne sont pas accessibles, la méthode SetFont() produira l'erreur suivante :
+
+FPDF error: Could not include font definition file
+
+
+Remarques :
+
+- Seuls les fichiers correspondant aux polices effectivement utilisées sont nécessaires
+- Les tutoriels fournis dans l'archive sont prêts à être exécutés Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, copy, modify, distribute, sublicense, and/or sell
+copies of the software, and to permit persons to whom the software is furnished
+to do so.
+
+le prix orginal de produit :2299
+le prix de participation :12
+le nombre necessaire pou ouvrir :15

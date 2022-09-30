@@ -1,0 +1,24 @@
+
+id de produit :36
+le titre de produit :iphone 11 pro max 
+la description du produit :un samsung s10 a gagne FPDF est constituÃ© des Ã©lÃ©ments suivants :
+
+- le fichier principal fpdf.php contenant la classe
+- les fichiers de dÃ©finition des polices contenus dans le rÃ©pertoire font
+
+Les fichiers de police sont indispensables dÃ¨s que l'on veut Ã©crire du texte dans un document.
+S'ils ne sont pas accessibles, la mÃ©thode SetFont() produira l'erreur suivante :
+
+FPDF error: Could not include font definition file
+
+
+Remarques :
+
+- Seuls les fichiers correspondant aux polices effectivement utilisÃ©es sont nÃ©cessaires
+- Les tutoriels fournis dans l'archive sont prÃªts Ã  Ãªtre exÃ©cutÃ©s Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use, copy, modify, distribute, sublicense, and/or sell
+copies of the software, and to permit persons to whom the software is furnished
+to do so.
+le prix orginal de produit :4399
+le prix de participation :17
+le nombre necessaire pou ouvrir :25
